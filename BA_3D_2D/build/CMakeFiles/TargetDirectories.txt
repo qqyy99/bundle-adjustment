@@ -1,0 +1,3 @@
+/home/linzs/hw_day19_BA_3D_2D/BA_3D_2D/build/CMakeFiles/BA.dir
+/home/linzs/hw_day19_BA_3D_2D/BA_3D_2D/build/CMakeFiles/edit_cache.dir
+/home/linzs/hw_day19_BA_3D_2D/BA_3D_2D/build/CMakeFiles/rebuild_cache.dir
