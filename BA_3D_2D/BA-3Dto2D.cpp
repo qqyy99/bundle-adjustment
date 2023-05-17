@@ -112,7 +112,7 @@ void bundleAdjustment (
     for (const Point3f point_3d : points_3d) {
         g2o::VertexSBAPointXYZ* point = new g2o::VertexSBAPointXYZ();
         point->setId(index++);
-        point->setFixed(true);
+        point->setFixed(false);
         point->setEstimate(Eigen::Vector3d(point_3d.x, point_3d.y, point_3d.z));
         point->setMarginalized(true);
         optimizer.addVertex(point);
