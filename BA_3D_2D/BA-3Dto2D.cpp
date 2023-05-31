@@ -117,7 +117,6 @@ void bundleAdjustment (
         point->setMarginalized(true);
         optimizer.addVertex(point);
     }
-	// ----------------------结束你的代码
 
     // 第6步：设置相机内参
     g2o::CameraParameters* camera = new g2o::CameraParameters (
